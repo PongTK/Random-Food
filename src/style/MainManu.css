@@ -2,11 +2,11 @@
 
 div.mainManu{
     width: 100vw;
-    height: 100%;
-    background: #659dbd;
-    background-image: linear-gradient( #538fb1,#659dbd,#8cc0de, #add3e9 );
-    padding-bottom: 190px;
-    padding-top: 10px;
+    height: 800px;
+    background-image: url(../assets/MainManu/white-paint-grunge-textured-concrete-background.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +15,6 @@ div.mainManu{
 
 div.mainManuText{
     width: 100vw;
-    height: 150px;
-    padding-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,14 +22,42 @@ div.mainManuText{
 }
 
 h1.mainManuText{
-    height: 80px;
-    font-size: 65px;
-    color: #ffffff
+    font-size: 85px;
+    color: #459361;
+    text-shadow: 2px 2px 2px #6fed75;
 }
 
-p.mainManuText{
-    font-size: 22px;
-    color: #ffffff
+div.threeWords{
+    margin: 20px;
+    width: 575px;
+    height: 92px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.innerThreeWords{
+    width: 90px;
+    height: 90px;
+    background-color: #459361;
+    border-radius: 100%;
+    text-align: center;
+    box-shadow: 3px 3px 5px #6fed75;
+}
+
+div.innerThreeWords:hover{
+    background-color: #52a370;
+    width: 92px;
+    height: 92px;
+
+}
+
+div.innerThreeWords h2{
+    padding-top: 14px;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
 }
 
 div.list{
@@ -64,8 +90,8 @@ div.box{
 }
 
 div.box:hover{
-    filter: drop-shadow(1px 1px 1.2em #fbeec1);
-    border: 0.5px solid #fbeec1;
+    filter: drop-shadow(2px 2px 1.5em #6fed75);
+    border: 1.2px solid #6fed75;
 }
 
 .boxText{
@@ -75,7 +101,7 @@ div.box:hover{
     align-items: center;
     width: 270px;
     height: 100px;
-    background-color: rgba(53, 53, 53, 0.703);
+    background-color: rgba(69, 147, 97, 0.7);
     border-radius: 10px;
     position: absolute;
     bottom: 15px;

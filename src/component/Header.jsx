@@ -5,16 +5,26 @@ function Header() {
   return (
     <div className="home">
       <div className="homeSign">
-        <img src="src\assets\cooking.svg" alt="cooking" />
+        <div className="homeSignLogo">
+          <img src="src\assets\frying-pan (2).png" alt="cooking" />
+        </div>
         <h1 className="homeSign">Aunty Dow's Food Court</h1>
         <p className="homeSign">By PongTK</p>
       </div>
       <div className="contact">
-        <a href="#" className="contactlink github">
-          <img src="src\assets\Footer\github.png" alt="github" />
+        <a
+          href="https://github.com/PongTK"
+          target="_blank"
+          className="contactlink github"
+        >
+          <img src="src\assets\Contact\icons8-github.svg" alt="github" />
         </a>
-        <a href="#" className="contactlink linkedin">
-          <img src="src\assets\Footer\linkedin.png" alt="linkedin" />
+        <a
+          href="https://www.linkedin.com/in/tunyatorn-kaewmool/"
+          target="_blank"
+          className="contactlink linkedin"
+        >
+          <img src="src\assets\Contact\icons8-linkedin.svg" alt="linkedin" />
         </a>
       </div>
     </div>

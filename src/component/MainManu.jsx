@@ -36,7 +36,18 @@ function MainManu(props) {
     <div className="mainManu">
       <div className="mainManuText">
         <h1 className="mainManuText">เจ๊ดาวรับจบ</h1>
-        <p className="mainManuText">เลือกแล้วสั่งเลย!</p>
+
+        <div className="threeWords">
+          <div className="innerThreeWords">
+            <h2>สุ่ม</h2>
+          </div>
+          <div className="innerThreeWords">
+            <h2>สั่ง</h2>
+          </div>
+          <div className="innerThreeWords">
+            <h2>เสิร์ฟ</h2>
+          </div>
+        </div>
       </div>
       <div className="list">
         <ul>

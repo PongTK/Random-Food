@@ -1,6 +1,5 @@
 div.footer{
-    background: #fbeec1;
-    box-shadow: 0px -1px 5px 5px #939393;
+    background: #fff;
     width: 100vw;
     height: 85px;
     display: flex;
@@ -11,5 +10,5 @@ div.footer{
 }
 
 .copyRight p{
-    color: #000;
+    color: #459361;
 }

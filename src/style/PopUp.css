@@ -28,7 +28,8 @@ div.popUp{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #fbeec1;
+    background-color: #ffffff;
+    filter: drop-shadow(0px 0px 8px #6fed75);
 }
 
 
@@ -56,10 +57,12 @@ span.popUpDetail{
 
 div.popUpDetail h2{
     font-size: 50px;
+    color: #459361;
 }
 
 div.popUpDetail p{
     font-size: 20px;
+    color: #459361;
 }
 
 button.goToPage{
@@ -79,12 +82,12 @@ button.goToPage{
     7px 7px 20px 0px rgba(0,0,0,.1),
     4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
-    background: rgb(6,14,131);
-    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    background: rgb(69, 147, 97);
+    background: linear-gradient(0deg, rgb(69, 147, 97) 0%, rgb(99, 190, 132) 100%);
     border: none;
 }
 
 button.goToPage:hover {
-    background: rgb(0,3,255);
- background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+    background: rgb(69, 147, 97);
+ background: linear-gradient(0deg, rgb(99, 190, 132) 0%, rgb(138, 233, 173) 100%);
  }
