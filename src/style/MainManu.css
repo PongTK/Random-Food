@@ -51,7 +51,7 @@ ul{
     justify-content: center;
 }
 
-a.box{
+div.box{
     display: flex;
     flex-direction: column;
     margin: 15px;
@@ -59,10 +59,11 @@ a.box{
     height: 400px;
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
 
 }
 
-a.box:hover{
+div.box:hover{
     filter: drop-shadow(1px 1px 1.2em #fbeec1);
     border: 0.5px solid #fbeec1;
 }
@@ -90,26 +91,26 @@ h1.list, h4.list{
     
 }
 
-a.rice{
+div.rice{
     background-image: url(../assets/MainManu/rice.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
     
 }
 
-a.noodle{
+div.noodle{
     background-image: url(../assets/MainManu/noodle.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
 
-a.dessert{
+div.dessert{
     background-image: url(../assets/MainManu/dessert.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
 
-a.drink{
+div.drink{
     background-image: url(../assets/MainManu/drink.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;

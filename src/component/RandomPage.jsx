@@ -1,9 +1,15 @@
 import React from "react";
 import "../style/RandomPage.css";
 
-function RandomPage() {
+function RandomPage(props) {
+  const { setDisplayRandomPage, randomManu } = props;
+
+  const closePopUp = () => {
+    setDisplayRandomPage(false);
+  };
   return (
     <div className="randomPage">
+      <div className="randomPageBG" onClick={closePopUp} />
       <div className="randomPageContent">
         <div className="chatBox">
           <p className="chatBoxMsg">ลูกพร้อมสุ่ม เจ๊พร้อมเสริฟ!</p>
@@ -14,7 +20,7 @@ function RandomPage() {
             <div class="back"></div>
             <div class="page6">
               <span className="randomResult">
-                <h3>ผัดพริกแกงหมูชิ้น</h3>
+                <h3>{randomManu}</h3>
               </span>
             </div>
             <div class="page5"></div>

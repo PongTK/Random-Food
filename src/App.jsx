@@ -7,18 +7,36 @@ import RandomPage from "./component/RandomPage.jsx";
 import "./App.css";
 
 function App() {
+  const [randomManu, setRandomManu] = useState("");
+
   const [displayPopUp, setDisplayPopUp] = useState(true);
 
   let firstPopUp = true;
   if (!!displayPopUp) {
     firstPopUp = <PopUp setDisplayPopUp={setDisplayPopUp} />;
   }
+
+  const [displayRandomPage, setDisplayRandomPage] = useState(false);
+
+  let randomPagePopUp = false;
+  if (!!displayRandomPage) {
+    randomPagePopUp = (
+      <RandomPage
+        setDisplayRandomPage={setDisplayRandomPage}
+        randomManu={randomManu}
+      />
+    );
+  }
+
   return (
     <>
       <Header />
       {firstPopUp}
-      <MainManu />
-      <RandomPage />
+      <MainManu
+        setDisplayRandomPage={setDisplayRandomPage}
+        setRandomManu={setRandomManu}
+      />
+      {randomPagePopUp}
       <Footer />
     </>
   );
