@@ -18,7 +18,7 @@ function PopUp(props) {
           </span>
           <span className="popUpDetail">
             <p className="popUpDetail">คิดไม่ออก สุ่มบอกเจ๊ดาว</p>
-            <p className="popUpDetail">รังสรรค์ทุกเมนุสุดชิก เพื่อลูกๆของเจ๊</p>
+            <p className="popUpDetail">รังสรรค์ทุกเมนูสุดชิก เพื่อลูกๆของเจ๊</p>
           </span>
           <button className="goToPage" onClick={closePopUp}>
             สุ่มเลย!
