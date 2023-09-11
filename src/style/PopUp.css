@@ -36,7 +36,7 @@ div.popUp{
 div.auntyDowPopUpImg{
     width: 300px;
     height: 500px;
-    background-image: url(../assets/เจ๊1.png);
+    background-image: url(/เจ๊1.png);
     background-repeat: no-repeat;
     background-size: 300px 500px;
 }

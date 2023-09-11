@@ -6,7 +6,7 @@ function Header() {
     <div className="home">
       <div className="homeSign">
         <div className="homeSignLogo">
-          <img src="src\assets\frying-pan (2).png" alt="cooking" />
+          <img src="public\frying-pan (2).png" alt="cooking" />
         </div>
         <h1 className="homeSign">Aunty Dow's Food Court</h1>
         <p className="homeSign">By PongTK</p>
@@ -17,14 +17,14 @@ function Header() {
           target="_blank"
           className="contactlink github"
         >
-          <img src="src\assets\Contact\icons8-github.svg" alt="github" />
+          <img src="/icons8-github.svg" alt="github" />
         </a>
         <a
           href="https://www.linkedin.com/in/tunyatorn-kaewmool/"
           target="_blank"
           className="contactlink linkedin"
         >
-          <img src="src\assets\Contact\icons8-linkedin.svg" alt="linkedin" />
+          <img src="/icons8-linkedin.svg" alt="linkedin" />
         </a>
       </div>
     </div>

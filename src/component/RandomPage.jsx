@@ -15,7 +15,7 @@ function RandomPage(props) {
           <p className="chatBoxMsg">ลูกพร้อมสุ่ม เจ๊พร้อมเสริฟ!</p>
         </div>
         <div className="randomContent">
-          <img src="src\assets\เจ๊2.png" alt="aunty" className="aunty" />
+          <img src="/เจ๊2.png" alt="aunty" className="aunty" />
           <div class="randomBook">
             <div class="back"></div>
             <div class="page6">

@@ -38,7 +38,7 @@ div.chatBox{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../assets/chatBoxx.png);
+    background-image: url(/chatBoxx.png);
     background-repeat: no-repeat;
     background-size: 500px 100px;
 }

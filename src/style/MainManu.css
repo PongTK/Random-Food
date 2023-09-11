@@ -3,7 +3,7 @@
 div.mainManu{
     width: 100vw;
     height: 800px;
-    background-image: url(../assets/MainManu/white-paint-grunge-textured-concrete-background.jpg);
+    background-image: url(/white-paint-grunge-textured-concrete-background.jpg);
     background-repeat: no-repeat;
     padding-bottom: 150px;
     padding-top: 50px;
@@ -118,26 +118,26 @@ h1.list, h4.list{
 }
 
 div.rice{
-    background-image: url(../assets/MainManu/rice.jpg);
+    background-image: url(/rice.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
     
 }
 
 div.noodle{
-    background-image: url(../assets/MainManu/noodle.jpg);
+    background-image: url(/noodle.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
 
 div.dessert{
-    background-image: url(../assets/MainManu/dessert.jpg);
+    background-image: url(/dessert.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
 
 div.drink{
-    background-image: url(../assets/MainManu/drink.jpg);
+    background-image: url(/drink.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
