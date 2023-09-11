@@ -6,7 +6,7 @@ function Header() {
     <div className="home">
       <div className="homeSign">
         <div className="homeSignLogo">
-          <img src="public\frying-pan (2).png" alt="cooking" />
+          <img src="/frying-pan (2).png" alt="cooking" />
         </div>
         <h1 className="homeSign">Aunty Dow's Food Court</h1>
         <p className="homeSign">By PongTK</p>
