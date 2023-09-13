@@ -28,17 +28,19 @@ h1.mainManuText{
 }
 
 div.threeWords{
-    margin: 20px;
-    width: 575px;
+    margin-bottom: 20px;
+    min-width: 200px;
+    max-width: 575px;
     height: 92px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 div.innerThreeWords{
     width: 90px;
     height: 90px;
+    margin: 15px;
     background-color: #459361;
     border-radius: 100%;
     text-align: center;
@@ -108,10 +110,6 @@ div.box:hover{
     left: 15px;
 }
 
-@media (max-width: 1000px) {
-    .boxText{visibility: hidden}
-}
-
 h1.list, h4.list{
     color: #ffffff;
     
@@ -143,4 +141,49 @@ div.drink{
 }
 
 
+@media (max-width: 1000px) {
+    .boxText{visibility: hidden}
+}
 
+@media (max-width: 500px) {
+    h1.mainManuText{
+        font-size: 50px;
+    }
+    ul{
+        max-width: 100vw;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    div.box{
+        width: 120px;
+        height: 160px;
+    }
+    div.rice{
+        background-repeat: no-repeat;
+    background-size: 120px 160px;
+    }
+    div.noodle{
+        background-repeat: no-repeat;
+    background-size: 120px 160px;
+    }
+    div.dessert{
+        background-repeat: no-repeat;
+    background-size: 120px 160px;
+    }
+    div.drink{
+        background-repeat: no-repeat;
+    background-size: 120px 160px;
+    }
+
+    div.innerThreeWords{
+        width: 60px;
+        height: 60px;
+    }
+
+    div.innerThreeWords h2{
+        font-size: 25px;
+        font-weight: 500;
+        padding-top: 10px;
+    }
+}

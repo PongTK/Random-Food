@@ -69,3 +69,11 @@ a.contactlink img{
 a.contactlink img:hover{
     width: 46px;
 }
+
+@media (max-width: 500px) {
+    div.contact{visibility: hidden;}
+    p.homeSign{visibility: hidden;}
+    h1.homeSign{font-size: 1rem;
+        width: 200px;
+    }
+}

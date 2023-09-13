@@ -91,3 +91,32 @@ button.goToPage:hover {
     background: rgb(69, 147, 97);
  background: linear-gradient(0deg, rgb(99, 190, 132) 0%, rgb(138, 233, 173) 100%);
  }
+
+ @media (max-width:500px) {
+    div.popUp{
+        width: 300px;
+        height: 200px;
+    }
+    div.auntyDowPopUpImg{
+        width: 120px;
+        height: 200px;
+        background-size: 120px 200px;
+    }
+    div.popUpDetail{
+        height: 150px;
+        justify-content: center;
+        align-items: center;
+    }
+    div.popUpDetail h2{
+        font-size: 20px;
+    }
+    div.popUpDetail p{
+        font-size: 10px;
+    }
+    button.goToPage{
+        width: 100px;
+        height: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+ }
