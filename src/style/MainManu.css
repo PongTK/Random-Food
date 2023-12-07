@@ -115,26 +115,26 @@ h1.list, h4.list{
     
 }
 
-div.rice{
+div.RICE{
     background-image: url(/rice.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
     
 }
 
-div.noodle{
+div.NOODLE{
     background-image: url(/noodle.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
 
-div.dessert{
+div.DESSERT{
     background-image: url(/dessert.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
 }
 
-div.drink{
+div.DRINK{
     background-image: url(/drink.jpg);
     background-repeat: no-repeat;
     background-size: 300px 400px;
@@ -158,22 +158,8 @@ div.drink{
     div.box{
         width: 120px;
         height: 160px;
-    }
-    div.rice{
         background-repeat: no-repeat;
-    background-size: 120px 160px;
-    }
-    div.noodle{
-        background-repeat: no-repeat;
-    background-size: 120px 160px;
-    }
-    div.dessert{
-        background-repeat: no-repeat;
-    background-size: 120px 160px;
-    }
-    div.drink{
-        background-repeat: no-repeat;
-    background-size: 120px 160px;
+        background-size: 120px 160px;
     }
 
     div.innerThreeWords{

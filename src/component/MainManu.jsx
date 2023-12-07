@@ -5,31 +5,18 @@ import Noodle from "./FoodList/NoodleManu";
 import Dessert from "./FoodList/DessertManu";
 import Drink from "./FoodList/DrinkManu";
 
-function MainManu(props) {
-  const { setDisplayRandomPage, setRandomManu } = props;
+function MainManu({ setDisplayRandomPage, setRandomManu }) {
+  const menuArray = [
+    { type: Rice, name: "RICE" },
+    { type: Noodle, name: "NOODLE" },
+    { type: Dessert, name: "DESSERT" },
+    { type: Drink, name: "DRINK" },
+  ];
 
-  function onRandomRiceClick() {
-    let rice = Rice[Math.floor(Math.random() * Rice.length)];
+  function onRandomFoodClick(foodType) {
+    let randomMenu = foodType[Math.floor(Math.random() * foodType.length)];
 
-    return setDisplayRandomPage(true), setRandomManu(rice);
-  }
-
-  function onRandomNoodleClick() {
-    let noodle = Noodle[Math.floor(Math.random() * Noodle.length)];
-
-    return setDisplayRandomPage(true), setRandomManu(noodle);
-  }
-
-  function onRandomDessertClick() {
-    let dessert = Dessert[Math.floor(Math.random() * Dessert.length)];
-
-    return setDisplayRandomPage(true), setRandomManu(dessert);
-  }
-
-  function onRandomDrinkClick() {
-    let drink = Drink[Math.floor(Math.random() * Drink.length)];
-
-    return setDisplayRandomPage(true), setRandomManu(drink);
+    return setDisplayRandomPage(true), setRandomManu(randomMenu);
   }
 
   return (
@@ -51,30 +38,17 @@ function MainManu(props) {
       </div>
       <div className="list">
         <ul>
-          <div onClick={onRandomRiceClick} className="box rice">
-            <div className="boxText">
-              <h1 className="list">RICE</h1>
-              <h4 className="list">เบื่อเส้น อยากกินข้าว</h4>
+          {menuArray.map((item, index) => (
+            <div
+              key={index}
+              onClick={() => onRandomFoodClick(item.type)}
+              className={`box ${item.name}`}
+            >
+              <div className="boxText">
+                <h1 className="list">{item.name}</h1>
+              </div>
             </div>
-          </div>
-          <div onClick={onRandomNoodleClick} className="box noodle">
-            <div className="boxText">
-              <h1 className="list">NOODLE</h1>
-              <h4 className="list">เบื่อข้าว อยากกินเส้น</h4>
-            </div>
-          </div>
-          <div onClick={onRandomDessertClick} className="box dessert">
-            <div className="boxText">
-              <h1 className="list">DESSERT</h1>
-              <h4 className="list">กินคาวไม่กินหวานสันดานไพร่</h4>
-            </div>
-          </div>
-          <div onClick={onRandomDrinkClick} className="box drink">
-            <div className="boxText">
-              <h1 className="list">DRINK</h1>
-              <h4 className="list">อาหารดีๆ ต้องคู่กับเครื่องดื่มโดนๆ</h4>
-            </div>
-          </div>
+          ))}
         </ul>
       </div>
     </div>
